@@ -1,0 +1,35 @@
+@CHARSET "UTF-8";
+
+textarea {
+	top: -170px;
+	left: 338px;
+	width: 190px;
+	height: 100px;
+	position: absolute;
+}
+
+textarea.bird{
+	left:570px;
+}
+textarea.snake{
+	left:800px;
+}
+
+.result {
+	font-style: italic;
+	font-weight: bold;
+	margin-left: 100px;
+}
+
+#resultBtn {
+	background-color: black;
+	color: gold;
+	font-weight: bold;
+	border: 0;
+	margin-top: 50px;
+}
+#btnDiv {
+	float: right;
+	margin-right: 100px;
+	text-align: right;
+}

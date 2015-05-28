@@ -1,0 +1,34 @@
+#screen {
+	border:1px solid gray;
+	width:300px; height:400px;
+	display:block;
+	text-decoration:none;
+
+	background-color:white;
+	color:#000;
+	clear: right;
+	
+	position: relative;
+	overflow: hidden;
+	cursor: default;
+	margin: 0 auto;
+	outline : 10px solid gold;
+}
+
+#score {
+	position:relative;
+	top:-400px;
+	left:5px;
+	
+	background-color:transparent;
+	border:0px;
+	font-size:20px;
+	font-family:Tahoma;
+	
+	cursor:default;
+	margin-left: 35%;
+}
+
+body{
+	background-color: black;
+}

@@ -1,0 +1,165 @@
+@CHARSET "UTF-8";
+
+h1.pageTitle{
+}
+
+table.boardTable {
+	outline: 5px solid gold;
+    text-align: center;
+    padding:10px;
+    width: 600px;
+}
+
+.tableHead {
+	text-align: center;
+	font-size: 1.3em;
+	font-weight: bold;
+}
+
+.tableHead td {
+}
+
+th {
+
+}
+
+#detail th{
+	  border: 2px solid gold;
+}
+
+.search {
+	  text-align: right;
+}
+
+.search input[type="text"] {
+	height: 30px;
+	background-color: black;
+	border: 0;
+	outline: 2px solid white;
+	margin: 5px;
+	color: gold;
+	text-align: center;
+	font-weight: bold;
+	font-style: italic;
+}
+
+.search	input[type="submit"] {
+	background-color: black;
+	color: gold;
+	font-weight: bold;
+	border: 0;
+	font-size: 1.3em;
+	font-style: italic;
+	margin: 5px;
+	margin-top: 20px;
+	margin-bottom: 25px;
+}
+
+.no {
+	width: 10%;
+}
+
+.title {
+	width: 40%;
+}
+
+.user {
+	width: 20%;
+}
+
+.date {
+	width: 20%;
+}
+
+.view {
+	width: 10%;
+}
+
+#insertTable textarea, #updateTable textarea {
+	width: 99%;
+	background-color: black;
+	border: 0;
+	outline: 3px solid gold;
+	margin-top: 10px;
+	color: gold;
+	padding-left: 5px;
+	padding-top: 10px;
+}
+
+#insertTable input[type="text"], #updateTable input[type="text"] {
+	background-color: black;
+	border: 0;
+	outline: 3px solid gold;
+	height: 30px;
+	color: gold;
+	padding-left: 5px;
+}
+
+.list_title {
+	
+}
+
+table tr:not(.search):not(.tableHead) td:not(.aTag ){
+
+}
+
+table tr:last-child {
+	
+}
+
+
+.btn input {
+	background-color: black;
+	font-size: 1.3em;
+	color: gold;
+	font-style: italic;
+	border: -0;
+	margin: 10px;
+	margin-top: 20px;
+	font-weight: bold;
+}
+
+.aTag a {
+	float: left;
+	margin: 10px;
+}
+
+.left {
+}
+
+.right {
+}
+
+.aTag a:HOVER {
+	color:white;
+}
+
+.detail_content {
+	  height: 300px;
+}
+
+.lastTd{
+	
+}
+
+.newBoard{
+
+}
+
+.newBoard .btn input {
+	float: right;
+	margin: 15px;
+	background-color: black;
+	color: gold;
+	font-size: 1.5em;
+	font-style: italic;
+	border: 0;
+	font-weight: bold;
+}
+
+#boardinput table tr td{ border: 0px;}
+#boardinput table th{ border-radius: 5px;}
+/* #boardinput table input{ height:35px}
+#boardinput table textarea{padding: 30px; width: 86%;border: 3px solid #8BB30B; border-radius: 5px; }
+#boardinput table input{border: 3px solid #8BB30B; width: 100%; border-radius: 5px;}
+#boardinput table .btn input{width: 150px; margin: 20px auto; border: 3px solid #388BDE; height: 30px; background-color: #388BDE; border-radius: 10px; color: white; font-size: 1.3em; font-weight: bold;} */

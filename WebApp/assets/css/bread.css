@@ -1,0 +1,30 @@
+@CHARSET "UTF-8";
+input[type="radio"]{
+	width: 80px;
+  height: 60px;
+}
+
+#breadResultBtn{
+	float: right;
+  margin-right: 30px;
+  background-color: black;
+  border: 0;
+  color: gold;
+  font-size: 2em;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.label{
+	font-size: 4em;
+  font-weight: bold;
+}
+
+#container{
+	 text-align: center;
+	
+}
+
+.btn{
+	
+}

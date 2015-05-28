@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE sqlMap PUBLIC "-//ibatis.apache.org//DTD SQL Map 2.0//EN" "http://ibatis.apache.org/dtd/sql-map-2.dtd">
+<sqlMap namespace="member">
+	<typeAlias alias="MemberVO" type="com.sds.icto.mind.vo.MemberVO" />
+
+	 <insert id="insert" parameterClass="MemberVO">
+		<![CDATA[
+		insert into member 
+		values (#id#, #password#, #name#, #grade#)
+		]]>  
+	</insert>
+	
+	<select id="login" parameterClass="MemberVO" resultClass="MemberVO">
+		select * 
+		from member 
+		where id = #id#
+		and password = #password#
+	</select>
+	
+	<update id="update" parameterClass="MemberVO">
+		update member
+		set name = #name#,
+			password = #password#
+		where id = #id#
+	</update>
+	
+	<delete id="delete" parameterClass="MemberVO">
+		delete from member
+		where id = #id#	and password = #password#
+	</delete>
+	
+	<select id="checkDup" parameterClass="java.lang.String" resultClass="java.lang.String">
+		select id 
+		from member
+		where id = #id#
+	</select>
+	
+</sqlMap> 

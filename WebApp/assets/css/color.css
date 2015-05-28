@@ -1,0 +1,17 @@
+@CHARSET "UTF-8";
+
+#colorImg{
+	width: 70%
+}
+
+#content {
+	position: absolute;
+	top: 280px;
+	left: 400px;
+}
+
+#btnDiv {
+	float: right;
+	margin-right: 100px;
+	text-align: right;
+}
